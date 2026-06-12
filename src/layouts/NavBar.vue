@@ -6,9 +6,9 @@
           '-translate-x-full': !showSide && isMobile,
           'translate-x-0': showSide || !isMobile
         }">
-      <div class="h-[60px] w-full bg-[#000000] flex justify-center items-center relative">
+      <div class="h-[100px] w-full bg-[#000000] flex justify-center items-center relative">
         <div class="px-[10px] mb-2 mt-2 flex justify-center items-center">
-          <img src="../assets/LOGO-PAG-BLANCO.png" alt="" class="h-auto w-[90%]">
+          <img src="../assets/logo.png" alt="" class="h-auto w-[100%]">
         </div>
         <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-[80%] h-[0.2px] bg-[#fff]"></div>
       </div>
@@ -40,15 +40,15 @@
                 class="hidden sm:flex font-semibold dark:text-white text-left w-[35%] items-center space-x-2  relative pr-4 border-r-2 border-[#00a600]">
                 <i class="fas fa-building text-[#00a600]"></i>
                 <div>
-                  <div class="text-xs text-black font-bold uppercase">RUC: {{ ruc }}</div>
-                  <div class="text-xs text-black font-bold uppercase">EMPRESA: {{ empresa }}</div>
+                  <div class="text-xs text-black font-bold uppercase">RUC: 10759978423</div>
+                  <div class="text-xs text-black font-bold uppercase">EMPRESA: AUTO EXPRESS</div>
                 </div>
               </div>
               <div
                 class="hidden sm:flex font-semibold dark:text-white text-left w-[35%] items-center space-x-2  relative pr-4 border-r-2 border-[#00a600]">
                 <i class="fas fa-map-marker-alt text-[#00a600]"></i>
                 <div>
-                  <div class="text-xs text-black font-bold uppercase">DIRECCIÓN: {{ direccion }}</div>
+                  <div class="text-xs text-black font-bold uppercase">DIRECCIÓN: AV. PRINCIPAL LOS ANGELES</div>
                 </div>
               </div>
               <div
