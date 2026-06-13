@@ -30,7 +30,6 @@
             </div>
         </div>
 
-        <!-- Table -->
         <div class="overflow-x-auto w-full">
             <table class="min-w-full border border-gray-[#212529] dark:border-gray-[#212529] rounded-lg">
                 <thead class=" text-white bg-[#212529]">
@@ -85,8 +84,6 @@
                 </tbody>
             </table>
         </div>
-
-        <!-- Paginación -->
         <div class="flex justify-end items-center mt-4 text-white text-xs gap-1">
             <button @click="previousPage" :disabled="currentPage === 1"
                 class="px-3 py-2 bg-gray-500 rounded disabled:opacity-50">
